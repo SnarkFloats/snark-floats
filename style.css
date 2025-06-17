@@ -1,16 +1,46 @@
-
 body {
-  font-family: sans-serif;
-  background-color: #f4f0fa;
-  color: #2d1b4e;
-  padding: 2rem;
+  font-family: system-ui, sans-serif;
+  margin: 0;
+  background-color: #fdfcfe;
+  color: #2a2a2a;
+  line-height: 1.6;
 }
 header {
-  border-bottom: 2px solid #5E2B97;
-  margin-bottom: 2rem;
+  background-color: #5E2B97;
+  color: white;
+  padding: 2rem;
+  text-align: center;
+}
+.subtitle {
+  font-weight: normal;
+  font-size: 1.25rem;
+  color: #e0d4f5;
+}
+.hero img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+.intro {
+  padding: 1.5rem;
+  max-width: 800px;
+  margin: auto;
+}
+.tldr-container {
+  background: #f4f0fa;
+  border-left: 5px solid #5E2B97;
+  padding: 1rem;
+  margin: 2rem auto;
+  max-width: 600px;
+}
+.tldr-container summary {
+  font-weight: bold;
+  cursor: pointer;
 }
 footer {
-  margin-top: 2rem;
-  font-size: 0.8rem;
-  color: #777;
+  text-align: center;
+  padding: 1rem;
+  background-color: #eee;
+  font-size: 0.9rem;
+  color: #555;
 }
