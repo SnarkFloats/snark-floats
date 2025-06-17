@@ -1,20 +1,19 @@
 body {
-  font-family: system-ui, sans-serif;
+  font-family: Arial, sans-serif;
+  background-color: #f9f7fb;
+  color: #2d2d2d;
   margin: 0;
-  background-color: #fdfcfe;
-  color: #2a2a2a;
-  line-height: 1.6;
+  padding: 0;
 }
 header {
   background-color: #5E2B97;
   color: white;
-  padding: 2rem;
+  padding: 1rem;
   text-align: center;
 }
 .subtitle {
-  font-weight: normal;
   font-size: 1.25rem;
-  color: #e0d4f5;
+  color: #E0D1F9;
 }
 .hero img {
   width: 100%;
@@ -23,24 +22,12 @@ header {
 }
 .intro {
   padding: 1.5rem;
-  max-width: 800px;
-  margin: auto;
-}
-.tldr-container {
-  background: #f4f0fa;
-  border-left: 5px solid #5E2B97;
-  padding: 1rem;
-  margin: 2rem auto;
-  max-width: 600px;
-}
-.tldr-container summary {
-  font-weight: bold;
-  cursor: pointer;
+  text-align: center;
 }
 footer {
+  background-color: #3D1A78;
+  color: white;
   text-align: center;
   padding: 1rem;
-  background-color: #eee;
   font-size: 0.9rem;
-  color: #555;
 }
