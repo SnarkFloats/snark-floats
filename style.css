@@ -51,10 +51,6 @@ body {
   outline: none;
 }
 
-.nav-links a.active {
-  border-bottom: 2px solid #FF4DB8;
-}
-
 main {
   padding: 2rem 48px;
   max-width: 960px;
@@ -66,7 +62,7 @@ main {
   display: flex;
   flex-direction: column;
   gap: 1.5rem;
-  margin-top: 2rem;
+  margin-top: 1rem;
 }
 
 .card {
@@ -102,4 +98,13 @@ main {
 .card-excerpt {
   margin-top: 1rem;
   line-height: 1.6;
+}
+
+/* Card modifiers */
+.card-dreamcast {
+  border-left-color: #38B2AC;
+}
+
+.card-limerick {
+  border-left-color: #FF4DB8;
 }
