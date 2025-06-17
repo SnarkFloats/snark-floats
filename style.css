@@ -1,110 +1,57 @@
+
 body {
   font-family: 'Work Sans', sans-serif;
   margin: 0;
-  padding: 0;
-  background-color: #fff;
-  color: #111;
+  padding: 0 48px;
+  background: #f9f9fb;
 }
-
-.site-header {
-  background-color: #2E003E;
-  padding: 1rem 32px;
-  color: #fff;
-}
-
-.nav-container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.site-title {
-  font-family: 'Raleway', sans-serif;
-  font-size: 1.5rem;
-  font-weight: 700;
-  text-transform: uppercase;
-  color: #fff;
-  text-decoration: none;
-}
-
-.nav-links {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  display: flex;
-  gap: 1.5rem;
-}
-
-.nav-links a {
-  font-family: 'Raleway', sans-serif;
-  font-size: 1rem;
-  font-weight: 500;
-  color: #fff;
-  text-decoration: none;
-  border-bottom: 2px solid transparent;
-  padding-bottom: 2px;
-}
-
-.nav-links a:hover,
-.nav-links a:focus {
-  border-bottom: 2px solid #FFD700;
-  outline: none;
-}
-
-main {
-  padding: 2rem 48px;
+.card-container {
   max-width: 960px;
-  margin-left: 0;
-  margin-right: auto;
+  margin: 48px auto;
+  display: grid;
+  gap: 32px;
 }
-
-.card-list {
-  display: flex;
-  flex-direction: column;
-  gap: 1.5rem;
-  margin-top: 1rem;
-}
-
 .card {
-  background: #fff;
-  border: 1px solid #ddd;
-  border-left: 5px solid #FFD700;
+  border-left: 8px solid #5e2b97;
+  background: white;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
   border-radius: 8px;
-  padding: 1.5rem;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+  padding: 1.25rem;
 }
-
-.card-title {
-  font-family: 'Raleway', sans-serif;
-  font-size: 1.2rem;
-  font-weight: 700;
-  color: #b8860b;
-  text-decoration: none;
-  display: block;
-  margin-top: 0.25rem;
+.badge {
+  display: inline-block;
+  font-size: 0.75rem;
+  font-weight: bold;
+  padding: 4px 10px;
+  border-radius: 999px;
+  margin-bottom: 0.75rem;
 }
-
-.card-title:hover {
-  color: #a07500;
-  text-decoration: underline;
+.teal {
+  background: #4ecdc4;
+  color: #003333;
 }
-
-.card-date {
-  font-size: 0.9rem;
-  color: #555;
-  float: right;
+.dream-cast-card h3:first-child {
+  margin-top: 0 !important;
 }
-
-.card-excerpt {
+.dream-cast-card p:first-of-type {
+  margin-top: 0 !important;
+}
+.dream-cast-card p:last-of-type {
+  margin-bottom: 0.5em !important;
+}
+.link-list {
+  list-style: none;
+  padding-left: 0;
   margin-top: 1rem;
-  line-height: 1.6;
 }
-
-/* Card modifiers */
-.card-dreamcast {
-  border-left-color: #38B2AC;
+.link-list li {
+  margin: 0.25rem 0;
 }
-
-.card-limerick {
-  border-left-color: #FF4DB8;
+.link-list a {
+  text-decoration: none;
+  font-weight: 500;
+  color: #5e2b97;
+}
+.link-list a:hover {
+  text-decoration: underline;
 }
