@@ -1,63 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Snark Floats</title>
-  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500;700&family=Work+Sans:wght@400;500&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@600&family=Work+Sans&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <header class="site-header">
-    <div class="nav-container">
-      <a href="index.html" class="site-title">SNARK FLOATS</a>
-      <nav>
-        <ul class="nav-links">
-          <li><a href="archive.html">Snarky Posts</a></li>
-          <li><a href="about.html">About Snark</a></li>
-          <li><a href="snarklevision.html">Snarklevision</a></li>
-          <li><a href="limericks.html">Limericks of Doom</a></li>
-        </ul>
-      </nav>
-    </div>
+  <header>
+    <h1 class="site-title">SNARK FLOATS</h1>
+    <nav>
+      <ul>
+        <li><a href="blog.html">Snarky Posts</a></li>
+        <li><a href="about.html">About Snark</a></li>
+        <li><a href="dreamcasts.html">Snarklevision</a></li>
+        <li><a href="limericks.html">Limericks of Doom</a></li>
+      </ul>
+    </nav>
   </header>
-
-  <main>
-    <section>
-      <h1>Latest Snarky Posts</h1>
-      <div class="card-list">
-        <article class="card">
-          <span class="card-date">April 28, 2025</span>
-          <a href="#" class="card-title">Game Over: How OpenAI Will Lose the War</a>
-          <p class="card-excerpt">OpenAI’s model brilliance won’t help them win the enterprise game if they forget how to play it.</p>
-        </article>
-        <article class="card">
-          <span class="card-date">April 21, 2025</span>
-          <a href="#" class="card-title">The UX Sacrifices Made for Pretty Dashboards</a>
-          <p class="card-excerpt">When form beats function, users lose—and pretty dashboards become productivity quicksand.</p>
-        </article>
-        <article class="card">
-          <span class="card-date">April 14, 2025</span>
-          <a href="#" class="card-title">If Your Platform Can’t Remember Me, I Don’t Want It</a>
-          <p class="card-excerpt">A digital identity crisis: when the tools meant to remember you forget you even exist.</p>
-        </article>
-      </div>
-    </section>
-
-    <section>
-      <h2>Featured Extras</h2>
-      <div class="card-list">
-        <article class="card card-dreamcast">
-          <span class="card-date">April 18, 2025</span>
-          <a href="#" class="card-title">Mass Effect: Snark Edition Dreamcast</a>
-          <p class="card-excerpt">Bold recasts, rogue interpretations, and one actor nobody saw coming—but everyone agrees was perfect.</p>
-        </article>
-        <article class="card card-limerick">
-          <span class="card-date">April 15, 2025</span>
-          <a href="#" class="card-title">Limerick: Corporate Clown Fiesta</a>
-          <p class="card-excerpt">There once was a boss in HR, whose ego eclipsed a quasar...</p>
-        </article>
-      </div>
-    </section>
+  <main class="card-container">
+    <article class="card blog-post">
+      <div class="badge gold">Snarky Post</div>
+      <h2>Why Copilots Crash</h2>
+      <p class="date">June 15, 2025</p>
+      <p class="excerpt">The tool that helps you build things... can't remember what it just built.</p>
+    </article>
+    <article class="card dreamcast">
+      <div class="badge teal">Snarklevision Presents</div>
+      <h2>Mass Effect Dream Cast</h2>
+      <p class="date">June 10, 2025</p>
+      <p class="excerpt">Shepard, meet Hollywood. A casting exercise in emotional resonance and fan bliss.</p>
+    </article>
+    <article class="card limerick">
+      <div class="badge pink">Limericks of Doom</div>
+      <h2>Corporate Haikus? Please. We Rhyme in Five Lines.</h2>
+      <p class="date">June 8, 2025</p>
+      <p class="excerpt">There once was a system from hell, where nothing would function too well...</p>
+    </article>
   </main>
 </body>
 </html>

@@ -1,0 +1,47 @@
+
+body {
+  font-family: 'Work Sans', sans-serif;
+  margin: 0;
+  padding: 0 48px;
+  background: #f9f9fb;
+}
+.site-title {
+  font-family: 'Raleway', sans-serif;
+  font-size: 2rem;
+  padding: 32px 0;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 16px;
+}
+.card-container {
+  display: grid;
+  gap: 24px;
+  padding-top: 24px;
+}
+.card {
+  border-left: 8px solid #5e2b97;
+  padding: 16px;
+  background: white;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+  border-radius: 8px;
+}
+.badge {
+  display: inline-block;
+  font-size: 0.75rem;
+  font-weight: bold;
+  padding: 4px 10px;
+  border-radius: 999px;
+  margin-bottom: 8px;
+}
+.gold { background: #ffcf3f; color: #2b2100; }
+.teal { background: #4ecdc4; color: #003333; }
+.pink { background: #ff6b81; color: #330000; }
+.date {
+  font-size: 0.8rem;
+  color: #666;
+}
+.excerpt {
+  margin-top: 6px;
+}
