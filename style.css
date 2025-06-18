@@ -163,3 +163,21 @@ nav a:visited {
   padding: 2rem 1rem 1.5rem 1rem;
   text-align: left;
 }
+
+/* Center the intro heading */
+.intro-heading {
+  text-align: center;
+  margin-top: 1rem;
+  font-size: 1.75rem;
+}
+
+/* Enhanced card styling */
+.card {
+  background: #fdfcfe;
+  border: 1px solid #ddd;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.04);
+  border-left: 8px solid #5e2b97;
+  border-radius: 8px;
+  padding: 1.25rem;
+  margin-bottom: 2rem;
+}
