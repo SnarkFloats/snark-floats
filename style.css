@@ -2,8 +2,7 @@
 body {
   font-family: 'Work Sans', sans-serif;
   margin: 0;
-  padding: 0;
-  background-color: #f9f9fb;
+  background: #f9f9fb;
   color: #111;
 }
 
@@ -49,11 +48,8 @@ nav a:visited {
 }
 
 .card-container {
-  max-width: 960px;
-  margin: 48px auto;
-  display: grid;
-  gap: 32px;
-  padding: 0 48px;
+  padding: 48px 0 48px 48px;
+  margin: 0;
 }
 
 .card {
@@ -62,6 +58,7 @@ nav a:visited {
   box-shadow: 0 2px 5px rgba(0,0,0,0.05);
   border-radius: 8px;
   padding: 1.25rem;
+  margin-bottom: 2rem;
 }
 
 .badge {
@@ -72,29 +69,9 @@ nav a:visited {
   border-radius: 999px;
   margin-bottom: 0.75rem;
 }
-
-.gold {
-  background-color: #ffcf3f;
-  color: #2b2100;
-}
-
-.teal {
-  background-color: #4ecdc4;
-  color: #003333;
-}
-
-.pink {
-  background-color: #ff6b81;
-  color: #330000;
-}
-
-.card-title {
-  font-family: 'Raleway', sans-serif;
-  font-size: 1.25rem;
-  font-weight: 700;
-  margin-top: 0;
-  color: #111;
-}
+.gold { background: #ffcf3f; color: #2b2100; }
+.teal { background: #4ecdc4; color: #003333; }
+.pink { background: #ff6b81; color: #330000; }
 
 .card-date {
   font-size: 0.9rem;
@@ -104,31 +81,4 @@ nav a:visited {
 .card-excerpt {
   margin-top: 0.75rem;
   line-height: 1.6;
-}
-
-.link-list {
-  list-style: none;
-  padding-left: 0;
-  margin-top: 1rem;
-}
-.link-list li {
-  margin: 0.25rem 0;
-}
-.link-list a {
-  text-decoration: none;
-  font-weight: 500;
-  color: #5e2b97;
-}
-.link-list a:hover {
-  text-decoration: underline;
-}
-
-.dream-cast-card h3:first-child {
-  margin-top: 0 !important;
-}
-.dream-cast-card p:first-of-type {
-  margin-top: 0 !important;
-}
-.dream-cast-card p:last-of-type {
-  margin-bottom: 0.5em !important;
 }
