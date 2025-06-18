@@ -1,1 +1,124 @@
-body { font-family: Raleway, sans-serif; background-color: #fff; color: #333; }
+
+body {
+  font-family: 'Work Sans', sans-serif;
+  margin: 0;
+  background: #f9f9fb;
+  color: #111;
+}
+
+.site-header {
+  background-color: #2E003E;
+  padding: 1.5rem 48px;
+  color: white;
+}
+
+.header-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.site-title {
+  font-family: 'Raleway', sans-serif;
+  font-size: 2rem;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+  padding: 0;
+  margin: 0;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #FFD700;
+}
+
+nav a:visited {
+  color: #b886f4;
+}
+
+.card-container {
+  padding: 48px 0 48px 48px;
+  margin: 0;
+}
+
+.card {
+  background: white;
+  border-left: 8px solid #5e2b97;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+  border-radius: 8px;
+  padding: 1.25rem;
+  margin-bottom: 2rem;
+}
+
+.badge {
+  display: inline-block;
+  font-size: 0.75rem;
+  font-weight: bold;
+  padding: 4px 10px;
+  border-radius: 999px;
+  margin-bottom: 0.75rem;
+}
+.gold { background: #ffcf3f; color: #2b2100; }
+.teal { background: #4ecdc4; color: #003333; }
+.pink { background: #ff6b81; color: #330000; }
+
+.card-date {
+  font-size: 0.9rem;
+  color: #555;
+}
+
+.card-excerpt {
+  margin-top: 0.75rem;
+  line-height: 1.6;
+}
+
+
+
+/* TL;DR Details Styling */
+.tldr {
+  margin: 1.5em 0;
+  border: 1px solid #ccc;
+  border-left: 4px solid #5E2B97;
+  padding: 1em;
+  background-color: #f9f9f9;
+  border-radius: 6px;
+  font-family: inherit;
+}
+
+.tldr summary {
+  font-weight: bold;
+  font-size: 1.1em;
+  cursor: pointer;
+  color: #5E2B97;
+  list-style: none;
+  margin-bottom: 0.5em;
+}
+
+.tldr[open] summary::after {
+  content: "▲";
+  float: right;
+  color: #5E2B97;
+}
+
+.tldr summary::after {
+  content: "▼";
+  float: right;
+  color: #5E2B97;
+}
+
+.tldr ul {
+  margin: 0.5em 0 0 1.2em;
+  padding: 0;
+  list-style-type: disc;
+}
