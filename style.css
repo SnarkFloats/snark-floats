@@ -187,3 +187,12 @@ nav a:visited {
   margin: 0 auto;
   padding: 0 1rem;
 }
+
+.site-footer {
+  text-align: center;
+  padding: 2rem 1rem;
+  font-size: 0.8rem;
+  color: #5E2B97;
+  border-top: 1px solid #eee;
+  margin-top: 4rem;
+}
