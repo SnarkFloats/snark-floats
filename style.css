@@ -246,3 +246,122 @@ nav a:visited {
   height: auto;
   margin: 1.5rem 0;
 }
+
+/* Header fix for post pages */
+.site-banner {
+  background-color: #2E003E;
+  padding: 1.5rem 48px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.site-banner a.site-title {
+  color: white;
+  font-family: 'Raleway', sans-serif;
+  font-size: 2rem;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.site-banner a.site-title:hover {
+  text-decoration: underline;
+}
+
+.site-banner nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+  padding: 0;
+  margin: 0;
+}
+
+.site-banner nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.site-banner nav a:hover {
+  color: #FFD700;
+}
+
+/* Hero image styling for post */
+.hero-image {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 2rem auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Sidebar styling */
+.sidebar {
+  margin-top: 2rem;
+  padding: 1.5rem;
+  background-color: #f1eef7;
+  border-left: 4px solid #5E2B97;
+  border-radius: 8px;
+  font-size: 0.95rem;
+}
+
+/* Footer for posts */
+footer {
+  text-align: center;
+  padding: 2rem 1rem;
+  font-size: 0.8rem;
+  color: #5E2B97;
+  border-top: 1px solid #eee;
+  margin-top: 4rem;
+}
+
+/* Consistent header styling */
+.site-header {
+  background-color: #2E003E;
+  padding: 1.5rem 48px;
+  color: white;
+}
+
+.header-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.site-title {
+  font-family: 'Raleway', sans-serif;
+  font-size: 2rem;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.site-title a {
+  color: white;
+  text-decoration: none;
+}
+
+.site-title a:hover {
+  text-decoration: underline;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+  padding: 0;
+  margin: 0;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #FFD700;
+}
