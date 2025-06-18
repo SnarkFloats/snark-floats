@@ -135,7 +135,7 @@ nav a:visited {
 /* Hero banner image styling */
 .hero-banner {
   display: block;
-  max-width: 720px;
+  max-width: 800px;
   width: 90%;
   max-height: 240px;
   object-fit: cover;
@@ -158,7 +158,7 @@ nav a:visited {
 
 /* Intro section wrapper */
 .site-intro {
-  max-width: 720px;
+  max-width: 800px;
   margin: 0 auto;
   padding: 3rem 1rem 1.5rem 1rem;
   text-align: left;
@@ -183,7 +183,7 @@ nav a:visited {
 }
 /* Limit card container width for visual alignment */
 .card-container {
-  max-width: 720px;
+  max-width: 800px;
   margin: 0 auto;
   padding: 0 1rem;
 }
