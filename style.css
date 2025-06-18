@@ -209,3 +209,40 @@ nav a:visited {
   box-shadow: 0 6px 15px rgba(0, 0, 0, 0.08);
   transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
+
+/* Blog post content styles */
+.post {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+  font-family: 'Inter', sans-serif;
+  line-height: 1.6;
+  color: #111;
+}
+
+.post h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #5E2B97;
+}
+
+.post h2 {
+  font-size: 1.5rem;
+  margin-top: 2rem;
+  color: #2E003E;
+}
+
+.post ul {
+  padding-left: 1.25rem;
+  margin: 1rem 0;
+}
+
+.post li {
+  margin-bottom: 0.5rem;
+}
+
+.post img {
+  max-width: 100%;
+  height: auto;
+  margin: 1.5rem 0;
+}
