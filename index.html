@@ -1,59 +1,112 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Snark Floats</title>
-    <link href="style.css" rel="stylesheet" />
-  </head>
-  <body>
-    <header>
-      <div class="site-banner">
-        <a href="index.html" class="site-title">SNARK FLOATS</a>
-        <nav>
-          <ul>
-            <li><a href="posts.html">Snarky Posts</a></li>
-            <li><a href="about.html">About Snark</a></li>
-            <li><a href="about.html#contact">Contact</a></li>
-          </ul>
-        </nav>
-      </div>
-    </header>
-
-    <main>
-      <section class="intro-wrapper">
-        <h1 class="centered">Welcome to Snark Floats</h1>
-        <p class="intro-text centered">I’m not here to hold your hand.</p>
-        <p class="intro-text centered">This is the place where I drag my own half-drowned thoughts onto a life raft made of sarcasm, sharp humor, and stubborn honesty — and if you want to climb aboard, you’re welcome.</p>
-        <p class="intro-text centered">This isn’t a public service. It’s survival.</p>
-        <p class="intro-text centered">I call bullshit where I see it — on bad tech, bad storytelling, bad history, corporate evil, and the small stupid things that try to sink us all.</p>
-        <p class="intro-text centered">Life’s a mess. Snark floats.</p>
-        <p class="intro-text centered">Grab a seat if you can handle it. If not, there are plenty of other lifeboats out there, filled with Pinterest quotes and toxic positivity. Good luck. You’ll need it…</p>
-      </section>
-
-      <div class="card-grid">
-        <a href="posts/openai-needs-pm.html" class="card-link-wrapper">
-          <article class="card blog-post">
-            <div class="badge purple">Snarky Post</div>
-            <h2>OpenAI Needs Product Management</h2>
-            <p class="card-date">June 18, 2025</p>
-            <p class="card-excerpt">You’re not using AI wrong. You’re just using it like a smart toaster. If you want results beyond warm output and emoji-laden lists…</p>
-          </article>
-        </a>
-
-        <a href="#" class="card-link-wrapper">
-          <article class="card blog-post">
-            <div class="badge purple">Snarky Post</div>
-            <h2>Don’t Be the Tool (Unless You’re a Really Good One)</h2>
-            <p class="card-date">Coming Soon</p>
-            <p class="card-excerpt">Some tools build. Some tools destroy. The trick is knowing the difference—and making damn sure you're not the wrench in the works.</p>
-          </article>
-        </a>
-      </div>
-    </main>
-
-    <footer>
-      <p class="footer-text">&copy; 2025 Jenifer Jorgenson. All sarcasm (and rights) reserved.</p>
-    </footer>
-  </body>
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <title>
+   Snark Floats
+  </title>
+  <link href="style.css" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Inter&amp;display=swap" rel="stylesheet"/>
+ </head>
+ <body>
+  <header class="site-header">
+   <div class="header-inner">
+    <h1 class="site-title">
+     <a href="index.html">
+      SNARK FLOATS
+     </a>
+    </h1>
+    <nav>
+     <ul>
+      <li>
+       <a href="posts.html">
+        Snarky Posts
+       </a>
+      </li>
+      <li>
+       <a href="about.html">
+        About Snark
+       </a>
+      </li>
+      <li>
+       <a href="about.html#contact">
+        Contact
+       </a>
+      </li>
+     </ul>
+    </nav>
+   </div>
+  </header>
+  <section class="site-intro">
+   <img alt="Snark Floats banner with colorful balloons" class="hero-banner" src="images/main/snark_floats_banner.webp"/>
+   <h2 class="intro-heading">
+    Welcome to Snark Floats
+   </h2>
+   <p>
+    I’m not here to hold your hand. This is the place where I drag my own half-drowned thoughts onto a life raft made of sarcasm, sharp humor, and stubborn honesty — and if you want to climb aboard, you’re welcome.
+   </p>
+   <p>
+    This isn’t a public service. It’s survival. I call bullshit where I see it — on bad tech, bad storytelling, bad history, corporate evil, and the small stupid things that try to sink us all.
+   </p>
+   <p>
+    Life’s a mess. Snark floats. Grab a seat if you can handle it. If not, there are plenty of other lifeboats out there, filled with Pinterest quotes and toxic positivity. Good luck. You’ll need it…
+   </p>
+  </section>
+  <main class="card-container">
+  <a href="post1.html" class="card-link">
+    <article class="card blog-post">
+      <div class="badge gold">Snarky Post</div>
+      <h2>OpenAI Built the Ultimate Tool. But Clippy Might Still Win.</h2>
+      <p class="card-date">June 15, 2025</p>
+      <p class="card-excerpt">
+        OpenAI has built the most powerful AI on the planet, but brilliance alone doesn’t make a great product. Without better UX, memory handling, and real workflow support, ChatGPT risks being outpaced by dumber tools that just work.<br />
+        The future of AI shouldn’t belong to Clippy, but without better product thinking, it just might.
+      </p>
+    </article>
+  </a>
+  <a href="post2.html" class="card-link">
+    <article class="card blog-post">
+      <div class="badge gold">Snarky Post</div>
+      <h2>Don’t be the Tool in Your AI Relationship: AI Works Better as a Companion</h2>
+      <p class="card-date">June 19, 2025</p>
+      <p class="card-excerpt">
+        You’re not using AI wrong. You’re just using it like a smart toaster. If you want results beyond warm output and emoji-laden bulleted lists, treat it like a collaborator. Talk to it. Teach it. Trust it. Then watch what happens...
+      </p>
+    </article>
+  </a>
+   <article class="card blog-post">
+    <div class="badge gold">
+     Snarky Post
+    </div>
+    <h2>
+     OpenAI Built the Ultimate Tool. But Clippy Might Still Win.
+    </h2>
+    <p class="card-date">
+     June 15, 2025
+    </p>
+    <p class="card-excerpt">
+     OpenAI has built the most powerful AI on the planet, but brilliance alone doesn’t make a great product. Without better UX, memory handling, and real workflow support, ChatGPT risks being outpaced by dumber tools that just work.<br />
+     The future of AI shouldn’t belong to Clippy, but without better product thinking, it just might.
+    </p>
+   </article>
+   <article class="card blog-post">
+    <div class="badge gold">
+     Snarky Post
+    </div>
+    <h2>
+     Don’t be the Tool in Your AI Relationship: AI Works Better as a Companion
+    </h2>
+    <p class="card-date">
+     June 19, 2025
+    </p>
+    <p class="card-excerpt">
+     You’re not using AI wrong. You’re just using it like a smart toaster. If you want results beyond warm output and emoji-laden bulleted lists, treat it like a collaborator. Talk to it. Teach it. Trust it. Then watch what happens...
+    </p>
+   </article>
+  </main>
+  <footer class="site-footer">
+   <p>&copy; 2025 Jenifer Jorgenson. All sarcasm (and rights) reserved.</p>
+  </footer>
+ </body>
 </html>

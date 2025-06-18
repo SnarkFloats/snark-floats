@@ -198,15 +198,14 @@ nav a:visited {
   margin-top: 4rem;
 }
 
-/* Full card link wrapper */
-.card-link-wrapper {
+.card-link {
   text-decoration: none;
   color: inherit;
   display: block;
-  transition: transform 0.2s ease;
 }
 
-.card-link-wrapper:hover .card {
-  transform: translateY(-2px);
-  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.08);
+.card-link:hover .card {
+  transform: scale(1.01);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.08);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
