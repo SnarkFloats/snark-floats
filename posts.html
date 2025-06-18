@@ -1,72 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
- <head>
-  <meta charset="utf-8"/>
-  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-  <title>
-   All Snarky Posts
-  </title>
-  <link href="https://fonts.googleapis.com/css2?family=Inter&amp;display=swap" rel="stylesheet"/>
-  <link href="style.css" rel="stylesheet"/>
- </head>
- <body>
-  <header class="site-header">
-   <div class="header-inner">
-    <h1 class="site-title">
-     <a href="index.html">
-      SNARK FLOATS
-     </a>
-    </h1>
-    <nav>
-     <ul>
-      <li>
-       <a href="posts.html">
-        Snarky Posts
-       </a>
-      </li>
-      <li>
-       <a href="about.html">
-        About Snark
-       </a>
-      </li>
-      <li>
-       <a href="about.html#contact">
-        Contact
-       </a>
-      </li>
-     </ul>
-    </nav>
-   </div>
-  </header>
-  <main class="card-container">
-   <article class="card blog-post">
-    <div class="badge gold">
-     Snarky Post
-    </div>
-    <h2>
-     Why Copilots Crash
-    </h2>
-    <p class="card-date">
-     June 15, 2025
-    </p>
-    <p class="card-excerpt">
-     The tool that helps you build things... can't remember what it just built.
-    </p>
-   </article>
-   <article class="card blog-post">
-    <div class="badge gold">
-     Snarky Post
-    </div>
-    <h2>
-     Context Is Not Optional
-    </h2>
-    <p class="card-date">
-     June 18, 2025
-    </p>
-    <p class="card-excerpt">
-     In tech, in leadership, in AI—context isn’t just helpful. It’s survival.
-    </p>
-   </article>
-  </main>
- </body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Snarky Posts</title>
+    <link href="style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <header>
+      <div class="site-banner">
+        <a href="index.html" class="site-title">SNARK FLOATS</a>
+        <nav>
+          <ul>
+            <li><a href="posts.html">Snarky Posts</a></li>
+            <li><a href="about.html">About Snark</a></li>
+            <li><a href="about.html#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="intro-wrapper">
+        <h1 class="centered">Snarky Posts</h1>
+        <p class="intro-text centered">
+          I post whenever the mood strikes or the world demands a sarcastic
+          response. No schedule. Just snark.
+        </p>
+      </section>
+
+      <div class="card-grid">
+        <a href="posts/openai-needs-pm.html" class="card-link-wrapper">
+          <article class="card blog-post">
+            <div class="badge purple">Snarky Post</div>
+            <h2>OpenAI Needs Product Management</h2>
+            <p class="card-date">June 18, 2025</p>
+            <p class="card-excerpt">
+              You’re not using AI wrong. You’re just using it like a smart
+              toaster. If you want results beyond warm output and emoji-laden
+              lists…
+            </p>
+          </article>
+        </a>
+
+        <a href="#" class="card-link-wrapper">
+          <article class="card blog-post">
+            <div class="badge purple">Snarky Post</div>
+            <h2>Don’t Be the Tool (Unless You’re a Really Good One)</h2>
+            <p class="card-date">Coming Soon</p>
+            <p class="card-excerpt">
+              Some tools build. Some tools destroy. The trick is knowing the
+              difference—and making damn sure you're not the wrench in the
+              works.
+            </p>
+          </article>
+        </a>
+      </div>
+    </main>
+
+    <footer>
+      <p class="footer-text">
+        &copy; 2025 Jenifer Jorgenson. All sarcasm (and rights) reserved.
+      </p>
+    </footer>
+  </body>
 </html>

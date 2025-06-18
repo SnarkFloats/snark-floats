@@ -1,5 +1,5 @@
 body {
-  font-family: 'Work Sans', sans-serif;
+  font-family: 'Inter', sans-serif;
   margin: 0;
   background: #f9f9fb;
   color: #111;
@@ -135,9 +135,11 @@ nav a:visited {
 /* Hero banner image styling */
 .hero-banner {
   display: block;
-  max-width: 600px;
+  max-width: 800px;
   width: 90%;
-  margin: 2rem auto;
+  max-height: 240px;
+  object-fit: cover;
+  margin: 1rem auto 1.5rem auto;
   border: 6px solid #5E2B97;
   border-radius: 8px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
@@ -148,12 +150,63 @@ nav a:visited {
   transform: scale(1.01);
 }
 
+.hero-banner:hover {
+  transform: scale(1.01);
+}
+
 
 
 /* Intro section wrapper */
 .site-intro {
-  max-width: 700px;
+  max-width: 800px;
   margin: 0 auto;
-  padding: 2rem 1rem 3rem 1rem;
+  padding: 3rem 1rem 1.5rem 1rem;
   text-align: left;
+
+  text-align: center;}
+
+/* Center the intro heading */
+.intro-heading {
+  text-align: center;
+  margin-top: 1rem;
+  font-size: 1.75rem;
+}
+
+/* Enhanced card styling */
+.card {
+  background: #f1eef7;
+  border: 1px solid #ddd;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.04);
+  border-left: 8px solid #5e2b97;
+  border-radius: 8px;
+  padding: 1.25rem;
+  margin-bottom: 2rem;
+}
+/* Limit card container width for visual alignment */
+.card-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.site-footer {
+  text-align: center;
+  padding: 2rem 1rem;
+  font-size: 0.8rem;
+  color: #5E2B97;
+  border-top: 1px solid #eee;
+  margin-top: 4rem;
+}
+
+/* Full card link wrapper */
+.card-link-wrapper {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+  transition: transform 0.2s ease;
+}
+
+.card-link-wrapper:hover .card {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.08);
 }
