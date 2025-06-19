@@ -374,6 +374,22 @@ nav a {
   background-color: #ccc; /* match your theme */
   margin: 2rem auto; /* centers it */
 }
+.back-to-posts {
+  margin-top: 3rem;
+  text-align: center;
+  font-size: 0.95rem;
+}
+
+.back-to-posts a {
+  color: #5E2B97;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.back-to-posts a:hover {
+  text-decoration: underline;
+}
+
 nav a:hover {
   color: #FFD700;
 }
