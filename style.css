@@ -367,7 +367,13 @@ nav a {
   background-color: #ccc; /* or your preferred gray/purple */
   margin: 2rem 0;
 }
-
+.section-divider-short {
+  border: none;
+  height: 2px;
+  width: 120px; /* or 100px or 150px, adjust as you like */
+  background-color: #ccc; /* match your theme */
+  margin: 2rem auto; /* centers it */
+}
 nav a:hover {
   color: #FFD700;
 }
