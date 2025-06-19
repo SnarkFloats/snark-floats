@@ -361,6 +361,12 @@ nav a {
   text-decoration: none;
   font-weight: bold;
 }
+.section-divider {
+  border: none;
+  height: 1px;
+  background-color: #ccc; /* or your preferred gray/purple */
+  margin: 2rem 0;
+}
 
 nav a:hover {
   color: #FFD700;
