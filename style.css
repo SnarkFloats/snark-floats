@@ -233,6 +233,10 @@ nav a:visited {
   color: #2E003E;
 }
 
+.post h3 {
+  color: #5E2B97; /* same purple as H1 */
+}
+
 .post ul {
   padding-left: 1.25rem;
   margin: 1rem 0;
