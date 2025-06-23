@@ -370,9 +370,10 @@ nav a {
 .section-divider-short {
   border: none;
   height: 2px;
-  width: 120px; /* or 100px or 150px, adjust as you like */
+  width: 150px; /* or 100px or 150px, adjust as you like */
   background-color: #ccc; /* match your theme */
-  margin: 2rem auto; /* centers it */
+  margin: 2rem 0; /* aligned left */
+  margin-left: 1rem; /* slight indent */
 }
 .back-to-posts {
   margin-top: 3rem;
