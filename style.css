@@ -401,6 +401,10 @@ nav a {
   position: relative;
 }
 
+nav a:hover {
+  color: #FFD700;
+}
+
 .series-label {
   font-weight: 600;
   font-size: 0.9rem;
@@ -418,35 +422,35 @@ nav a {
   padding-left: 2.5rem;
 }
 
-.connected-card {
+/* Make the container a positioning context for the connector line */
+.card-container.series-cards {
   position: relative;
 }
 
-.series-connector::before,
-.series-connector::after {
-  content: '';
+/* Position the vertical connector line from mid-card to mid-card */
+.card-container.series-cards .series-line {
   position: absolute;
-  left: -4px;
-  width: 10px;
-  height: 10px;
-  background-color: #a78bfa;
-  border-radius: 50%;
+  left: 20px;          /* adjust horizontal offset to align with design (e.g. 20px from left) */
+  top: 25%;            /* start the line at ~25% of container height (midpoint of first card) */
+  height: 50%;         /* span the line ~50% of container height (ending at midpoint of second card) */
+  width: 2px;          /* thin vertical line */
+  background: #888;    /* line color (adjust as needed, e.g. #888 or currentColor) */
 }
 
-.series-connector::before {
-  top: 0;
-}
-.series-connector::after {
-  bottom: 0;
-}
-.series-connector {
+/* Optional: add connector dots at each end of the line for clarity */
+.card-container.series-cards .series-line::before,
+.card-container.series-cards .series-line::after {
+  content: "";
   position: absolute;
-  left: 1.1rem; /* adjust to match your layout */
-  top: calc(50% + 0.5rem); /* middle of first card */
-  height: calc(100% - 4rem); /* total height minus top + bottom gaps */
-  width: 2px;
-  background-color: #a78bfa;
-  z-index: 0;
+  left: 50%;
+  transform: translateX(-50%);    /* center the dots horizontally on the line */
+  width: 8px;
+  height: 8px;
+  background: #888;               /* same color as the line */
+  border-radius: 50%;             /* make the dots circular */
+}
+.card-container.series-cards .series-line::before { top: 0; }    /* dot at the line’s top (first card midpoint) */
+.card-container.series-cards .series-line::after  { bottom: 0; } /* dot at the line’s bottom (second card midpoint) */
 }
 
 .connected-card {
@@ -457,7 +461,3 @@ nav a {
   box-shadow: 0 2px 6px rgba(0,0,0,0.04);
   border-radius: 0.5rem;
 }
-
-nav a:hover {
-  color: #FFD700;
-
