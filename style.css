@@ -409,11 +409,23 @@ nav a:hover {
 .series-label {
   font-weight: 600;
   font-size: 0.9rem;
-  text-transform: uppercase;
-  color: #6b7280;
-  margin-bottom: 0.75rem;
-  padding-left: 2.5rem; /* Aligns with the cards + series line */
-  display: block;
+  color: #6b7280; /* Tailwind gray-500 */
+  padding-left: 2rem; /* aligns with vertical line */
+  margin-bottom: 0.5rem;
+  position: relative;
+  z-index: 1;
+}
+
+.series-label::before {
+  content: '';
+  position: absolute;
+  left: 1.1rem; /* aligns with vertical line */
+  top: 50%;
+  transform: translateY(-50%);
+  width: 8px;
+  height: 8px;
+  background-color: #a78bfa;
+  border-radius: 50%;
 }
 
 .series-cards {
