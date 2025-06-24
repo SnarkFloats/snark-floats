@@ -410,7 +410,7 @@ nav a:hover {
   font-weight: 600;
   font-size: 0.9rem;
   color: #6b7280; /* Tailwind gray-500 */
-  padding-left: 2rem; /* aligns with vertical line */
+  margin-left: 1.5rem; /* aligns with vertical line */
   margin-bottom: 0.5rem;
   position: relative;
   z-index: 1;
@@ -419,8 +419,8 @@ nav a:hover {
 .series-label::before {
   content: '';
   position: absolute;
-  left: 1.1rem; /* aligns with vertical line */
-  top: 50%;
+  left: -1.1rem; /* aligns with vertical line */
+  top: 0.5rem;
   transform: translateY(-50%);
   width: 8px;
   height: 8px;
