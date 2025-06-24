@@ -412,10 +412,41 @@ nav a {
 
 .series-cards {
   position: relative;
-  padding-left: 2rem; /* creates space for the vertical line */
   display: flex;
   flex-direction: column;
   gap: 2rem;
+  padding-left: 2.5rem;
+}
+
+.connected-card {
+  position: relative;
+}
+
+.series-connector::before,
+.series-connector::after {
+  content: '';
+  position: absolute;
+  left: -4px;
+  width: 10px;
+  height: 10px;
+  background-color: #a78bfa;
+  border-radius: 50%;
+}
+
+.series-connector::before {
+  top: 0;
+}
+.series-connector::after {
+  bottom: 0;
+}
+.series-connector {
+  position: absolute;
+  left: 1.1rem; /* adjust to match your layout */
+  top: calc(50% + 0.5rem); /* middle of first card */
+  height: calc(100% - 4rem); /* total height minus top + bottom gaps */
+  width: 2px;
+  background-color: #a78bfa;
+  z-index: 0;
 }
 
 .connected-card {
@@ -426,16 +457,7 @@ nav a {
   box-shadow: 0 2px 6px rgba(0,0,0,0.04);
   border-radius: 0.5rem;
 }
+
 nav a:hover {
   color: #FFD700;
-}
-.series-line {
-  content: '';
-  position: absolute;
-  left: 1rem;
-  top: 0;
-  height: 100%;
-  width: 2px;
-  background-color: #a78bfa;
-  z-index: 1;
-}
+
