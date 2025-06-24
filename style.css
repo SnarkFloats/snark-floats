@@ -405,13 +405,20 @@ nav a:hover {
   color: #FFD700;
 }
 
+.series-wrapper {
+  position: relative;
+  padding-left: 2.5rem; /* Matches .series-cards so label aligns with cards and connector */
+  margin-bottom: 2rem;  /* Gives space before the next content block */
+}
+
 .series-label {
   font-weight: 600;
   font-size: 0.9rem;
   text-transform: uppercase;
   color: #6b7280;
-  margin-bottom: 1rem;
+  margin-bottom: 0.5rem;
   padding-left: 0.5rem;
+  display: block;
 }
 
 .series-cards {
