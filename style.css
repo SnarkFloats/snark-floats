@@ -411,6 +411,8 @@ nav a {
 }
 
 .series-cards {
+  position: relative;
+  padding-left: 2rem; /* creates space for the vertical line */
   display: flex;
   flex-direction: column;
   gap: 2rem;
@@ -426,4 +428,14 @@ nav a {
 }
 nav a:hover {
   color: #FFD700;
+}
+.series-line {
+  content: '';
+  position: absolute;
+  left: 1rem;
+  top: 0;
+  height: 100%;
+  width: 2px;
+  background-color: #a78bfa;
+  z-index: 1;
 }
