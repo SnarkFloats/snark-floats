@@ -396,11 +396,6 @@ nav a {
   text-decoration: underline;
 }
 
-  padding-left: 1.5rem;
-  border-left: 3px solid #a78bfa;
-  position: relative;
-}
-
 nav a:hover {
   color: #FFD700;
 }
@@ -416,8 +411,8 @@ nav a:hover {
   font-size: 0.9rem;
   text-transform: uppercase;
   color: #6b7280;
-  margin-bottom: 0.5rem;
-  padding-left: 0.5rem;
+  margin-bottom: 0.75rem;
+  padding-left: 2.5rem; /* Aligns with the cards + series line */
   display: block;
 }
 
