@@ -597,13 +597,16 @@ form {
 }
 
 form > div {
-  margin-top: 1.5rem;     /* Add space above each field group */
-  margin-bottom: 0;       /* Remove bottom margin to reduce excess */
+  margin-bottom: 1rem;       /* space after each input */
+}
+
+form > div:first-of-type {
+  margin-top: 2rem;
 }
 
 input, textarea, select {
   width: 100%;
-  padding: 0.75rem;
+  padding: 0.5rem 0.75rem;   /* tighten top/bottom padding slightly */
   border: 1px solid #ccc;
   border-radius: 6px;
   margin-top: 0;             /* no extra space above input */
