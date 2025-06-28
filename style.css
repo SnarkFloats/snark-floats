@@ -642,10 +642,24 @@ label {
 }
 
 .contact-intro {
-  max-width: 700px;
-  margin: 3rem auto 2rem;
-  padding: 0 1.5rem;
-  text-align: center;
+  display: flex;
+  align-items: flex-start;
+  gap: 2rem;
+  margin-bottom: 3rem;
+  padding-top: 2rem;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 2rem;
+}
+
+.contact-intro img {
+  max-width: 250px;
+  height: auto;
+  flex-shrink: 0;
+  border-radius: 6px;
+}
+
+.contact-text {
+  max-width: 600px;
 }
 
 .contact-intro h1 {
@@ -657,3 +671,9 @@ label {
   margin-bottom: 0.75rem;
   line-height: 1.6;
 }
+@media (max-width: 768px) {
+  .contact-intro {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
