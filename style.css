@@ -15,6 +15,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 1rem;
 }
 
 .site-title {
@@ -26,15 +27,14 @@ body {
 
 .site-title-tagline {
   display: flex;
-  align-items: center;
+  align-items: baseline;
 }
 
 .site-tagline {
-  margin-left: 100px; /* or try 80px if 100 feels too wide */
+  margin-left: 80px; /* or whatever spacing feels right */
   font-size: 0.9rem;
-  font-weight: 400;
-  color: #ccc;
   font-style: italic;
+  color: #ccc; /* or a softer tone than the title */
   white-space: nowrap;
 }
 
