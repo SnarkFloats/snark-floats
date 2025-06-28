@@ -613,10 +613,16 @@ input, textarea, select {
   font-size: 1rem;
 }
 
+.form-field {
+  margin-top: 1.75rem;
+  display: flex;
+  flex-direction: column;
+}
+
 label {
   font-weight: bold;
   display: block;
-  margin-bottom: 0.25rem;  /* Keep a tight link between label and input */
+  margin-bottom: 0.5rem;  /* Keep a tight link between label and input */
   color: #2c2c2c;
 }
 
