@@ -452,13 +452,23 @@ nav a:hover {
 }
 
 .about-columns > div {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  background-color: #fff;
+  flex: 1;
   padding: 1.5rem;
   border-radius: 8px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  box-shadow: none; /* You can keep this if you prefer shadows */
+  position: relative;
+}
+
+/* Add divider to all but the last column */
+.about-columns > div:not(:last-child)::after {
+  content: "";
+  position: absolute;
+  top: 10%;
+  right: -1rem;
+  width: 1px;
+  height: 80%;
+  background-color: #ccc;
 }
 
 .about-column {
@@ -488,14 +498,13 @@ nav a:hover {
   display: flex;
   align-items: center; /* <-- This is the key */
   gap: 2rem; /* Optional spacing between text and image */
-  margin-top: 3rem; /* Or whatever spacing you need from above */
+  margin-top: 2rem; /* Or whatever spacing you need from above */
 }
 
 .about-bottom {
   display: flex;
   gap: 2rem;
   align-items: flex-start;
-  margin-top: 4rem;
 }
 
 .about-bottom-text {
