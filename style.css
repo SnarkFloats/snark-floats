@@ -597,7 +597,8 @@ form {
 }
 
 form > div {
-  margin-bottom: 1rem;       /* slightly tighter spacing */
+  margin-top: 1.5rem;     /* Add space above each field group */
+  margin-bottom: 0;       /* Remove bottom margin to reduce excess */
 }
 
 input, textarea, select {
@@ -612,7 +613,7 @@ input, textarea, select {
 label {
   font-weight: bold;
   display: block;
-  margin-bottom: 0.5rem;     /* more space below label */
+  margin-bottom: 0.25rem;  /* Keep a tight link between label and input */
   color: #2c2c2c;
 }
 
