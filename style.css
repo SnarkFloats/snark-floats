@@ -641,25 +641,31 @@ label {
   display: none;
 }
 
+.contact-section {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
 .contact-intro {
   display: flex;
   align-items: flex-start;
   gap: 2rem;
   margin-bottom: 3rem;
-  padding-top: 2rem;
   border-bottom: 1px solid #ccc;
   padding-bottom: 2rem;
+  flex-wrap: wrap;
 }
 
 .contact-intro img {
-  max-width: 250px;
-  height: auto;
-  flex-shrink: 0;
+  max-width: 200px;
+  border: 3px solid rebeccapurple;
   border-radius: 6px;
 }
 
 .contact-text {
-  max-width: 600px;
+  flex: 1;
+  max-width: 250px;
 }
 
 .contact-intro h1 {
@@ -667,13 +673,24 @@ label {
   margin-bottom: 1rem;
 }
 
+.contact-text h2 {
+  margin-top: 0;
+  margin-bottom: 0.75rem;
+}
+
 .contact-intro p {
   margin-bottom: 0.75rem;
   line-height: 1.6;
 }
-@media (max-width: 768px) {
+
+@media (max-width: 700px) {
   .contact-intro {
     flex-direction: column;
     align-items: center;
     text-align: center;
   }
+
+  .contact-text {
+    text-align: center;
+  }
+}
