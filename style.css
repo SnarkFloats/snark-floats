@@ -26,6 +26,7 @@ body {
 
 .site-title-tagline {
   display: flex;
+  align-items: center;
 }
 
 .site-tagline {
