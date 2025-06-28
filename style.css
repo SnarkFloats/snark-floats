@@ -655,7 +655,7 @@ label {
 .contact-section {
   max-width: 960px;
   margin: 0 auto;
-  padding: 1rem 1rem 2rem;  /* increased top padding slightly */
+  padding: 2rem 1rem 2rem;  /* Added top padding */
 }
 
 .contact-intro {
