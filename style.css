@@ -490,9 +490,11 @@ nav a:hover {
   .about-columns {
     flex-direction: column;
     gap: 2rem;
+    position: relative; /* keep this if you use absolute dividers elsewhere */
   }
 
-  .about-columns > div:not(:last-child)::after {
+  /* Hides the vertical divider lines when stacked */
+  .about-columns > div::after {
     display: none;
   }
 }
