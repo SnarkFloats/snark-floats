@@ -474,6 +474,14 @@ nav a:hover {
     gap: 2rem;
   }
 }
+
+.about-bottom-wrapper {
+  display: flex;
+  align-items: center; /* <-- This is the key */
+  gap: 2rem; /* Optional spacing between text and image */
+  margin-top: 3rem; /* Or whatever spacing you need from above */
+}
+
 .about-bottom {
   display: flex;
   gap: 2rem;
@@ -482,12 +490,12 @@ nav a:hover {
 }
 
 .about-bottom-text {
-  flex: 2;
+  flex: 1; /* Let text take remaining space */
 }
 
 .about-bottom-image {
-  flex: 1;
-  max-width: 300px;
+  flex-shrink: 0;        /* Prevent the whole image container from shrinking */
+  max-width: 350px;      /* Keeps image at a reasonable size */
 }
 
 .about-bottom-image img {
