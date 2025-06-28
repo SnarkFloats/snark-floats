@@ -592,26 +592,27 @@ nav a:hover {
 --------------------- */
 form {
   max-width: 600px;
-  margin: 0 auto;
+  margin: 2rem auto 0;       /* add space above form */
   font-family: inherit;
 }
 
 form > div {
-  margin-bottom: 1.25rem; /* Slightly roomier between fields */
+  margin-bottom: 1rem;       /* slightly tighter spacing */
 }
+
 input, textarea, select {
   width: 100%;
   padding: 0.75rem;
   border: 1px solid #ccc;
   border-radius: 6px;
-  margin-top: 0; /* removes extra space above input */
+  margin-top: 0;             /* no extra space above input */
   font-size: 1rem;
 }
 
 label {
   font-weight: bold;
   display: block;
-  margin-bottom: 0.25rem; /* space between label and input */
+  margin-bottom: 0.5rem;     /* more space below label */
   color: #2c2c2c;
 }
 
@@ -644,16 +645,16 @@ label {
 .contact-section {
   max-width: 960px;
   margin: 0 auto;
-  padding: 0.5rem 1rem 2rem;  /* reduce top padding only */
+  padding: 1rem 1rem 2rem;  /* increased top padding slightly */
 }
 
 .contact-intro {
   display: flex;
   align-items: flex-start;
   gap: 2rem;
-  margin-bottom: 1.5rem;
+  margin-bottom: 0;          /* prevent stacking with form margin-top */
+  padding-bottom: 2rem;      /* make the HR line feel more spaced */
   border-bottom: 1px solid #ccc;
-  padding-bottom: 1rem;
   flex-wrap: wrap;
 }
 
