@@ -597,7 +597,7 @@ form {
 }
 
 form > div {
-  margin-bottom: 0.75rem;
+  margin-bottom: 1.25rem;
 }
 input, textarea, select {
   width: 100%;
@@ -644,7 +644,7 @@ label {
 .contact-section {
   max-width: 960px;
   margin: 0 auto;
-  padding: 2rem 1rem;
+  padding: 0.5rem 1rem 2rem;  /* reduce top padding only */
 }
 
 .contact-intro {
