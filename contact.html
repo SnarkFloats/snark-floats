@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <title>SNARK FLOATS | Send Your Snark
+  </title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter&amp;display=swap" rel="stylesheet"/>
+  <link rel="manifest" href="/site.webmanifest">
+  <link href="style.css" rel="stylesheet"/>
+ </head>
+ <body>
+<header class="site-header">
+  <div class="header-inner">
+    <div class="site-title-tagline">
+      <h1 class="site-title"><a href="index.html">SNARK FLOATS</a></h1>
+      <span class="site-tagline">Sarcasm. Sanity. Survival.</span>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="posts.html">Snarky Posts</a></li>
+        <li><a href="about.html">About Snark</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+<h2>Talk Snarky to Me!</h2>
+<p>Engage with my posts and share your thoughts. I don't shy away from criticism.<br />
+  Or send in your corporate limericks or dream cast ideas&mdash;the more the merrier.</p>
+<p>Feedback and dialogue make this blog a community for anyone who appreciates honesty, humor, and sarcasm.<br />
+  Who knows? Maybe your snark floats, too...</p>
+   <hr>
+<form name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field">
+  <input type="hidden" name="form-name" value="contact" />
+  <p class="hidden">
+    <label>Don’t fill this out if you’re human: <input name="bot-field" /></label>
+  </p>
+
+  <p>
+    <label for="name">Your Handle <span class="required">*</span></label><br>
+    <input type="text" id="name" name="name" required />
+  </p>
+
+  <p>
+    <label for="email">Your Email <span class="required">*</span></label><br>
+    <input type="email" id="email" name="email" required />
+  </p>
+
+  <p>
+    <label for="snark-type">What kind of snark are you sending me? <span class="required">*</span></label><br>
+    <select id="snark-type" name="snark-type" required>
+      <option value="">Select one option</option>
+      <option>Happy Thoughts & Well Wishes</option>
+      <option>Brutal Corporate Limericks</option>
+      <option>Groundbreaking DreamCast Ideas</option>
+      <option>Hate Mail</option>
+      <option>Other</option>
+    </select>
+  </p>
+
+  <p>
+    <label for="message">The Meat <span class="required">*</span></label><br>
+    <textarea id="message" name="message" rows="5" required></textarea>
+  </p>
+
+  <p>
+    <button type="submit" class="snark-button">Send Your Snark!</button>
+  </p>
+</form>
+
+   <footer class="site-footer">
+   <p>&copy; 2025 Jenifer Jorgenson. All sarcasm (and rights) reserved.</p>
+  </footer>
+ </body>
+</html>
