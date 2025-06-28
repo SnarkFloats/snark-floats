@@ -446,15 +446,15 @@ nav a:hover {
 }
 
 .about-columns {
+  display: flex;
   align-items: stretch;
+  gap: 2rem; /* Optional, helps with spacing */
 }
+
 .about-columns > div {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-}
-
-.about-columns > div {
   background-color: #fff;
   padding: 1.5rem;
   border-radius: 8px;
