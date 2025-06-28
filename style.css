@@ -447,7 +447,7 @@ nav a:hover {
 
 .about-columns {
   display: flex;
-  align-items: stretch;
+  align-items: flex-start; /* instead of stretch */
   gap: 2rem; /* Optional, helps with spacing */
   font-size: 1rem;
   line-height: 1.6;
