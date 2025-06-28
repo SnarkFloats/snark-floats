@@ -597,7 +597,7 @@ form {
 }
 
 form > div {
-  margin-bottom: 1.5rem;
+  margin-bottom: 1.25rem; /* Slightly roomier between fields */
 }
 input, textarea, select {
   width: 100%;
