@@ -516,6 +516,14 @@ nav a:hover {
     max-width: 100%;
   }
 }
+
+.about-top-wrapper {
+  display: flex;
+  align-items: center; /* vertically center image and text */
+  gap: 2rem;
+  padding: 2rem 0;
+}
+
 .about-top {
   display: flex;
   gap: 2rem;
@@ -529,7 +537,7 @@ nav a:hover {
 }
 
 .about-top-image img {
-  width: 100%;
+  max-width: 300px;
   height: auto;
   display: block;
   border-radius: 8px; /* optional */
