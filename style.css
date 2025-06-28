@@ -449,13 +449,16 @@ nav a:hover {
   align-items: stretch;
 }
 .about-columns > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.about-columns > div {
   background-color: #fff;
   padding: 1.5rem;
   border-radius: 8px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
 }
 
 .about-column {
