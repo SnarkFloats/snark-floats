@@ -39,21 +39,21 @@
 </section>
 <form name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field">
   <input type="hidden" name="form-name" value="contact" />
-  <p class="hidden">
+  <div class="hidden">
     <label>Don’t fill this out if you’re human: <input name="bot-field" /></label>
-  </p>
+  </div>
 
-  <p>
-    <label for="name">Your Handle <span class="required">*</span></label><br>
+  <div class="form-field">
+    <label for="name">Your Handle <span class="required">*</span></label>
     <input type="text" id="name" name="name" required />
-  </p>
+  </div>
 
-  <p>
-    <label for="email">Your Email <span class="required">*</span></label><br>
+  <div class="form-field">
+    <label for="email">Your Email <span class="required">*</span></label>
     <input type="email" id="email" name="email" required />
-  </p>
+  </div>
 
-  <p>
+  <div class="form-field">
     <label for="snark-type">What kind of snark are you sending me? <span class="required">*</span></label><br>
     <select id="snark-type" name="snark-type" required>
       <option value=""> --Select one --</option>
@@ -63,12 +63,12 @@
       <option>Hate Mail</option>
       <option>Other</option>
     </select>
-  </p>
+  </div>
 
-  <p>
+  <div class="form-field">
     <label for="message">The Meat <span class="required">*</span></label><br>
     <textarea id="message" name="message" rows="5" required></textarea>
-  </p>
+  </div>
 
   <p>
     <button type="submit" class="snark-button">Send Your Snark!</button>
