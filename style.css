@@ -587,3 +587,52 @@ nav a:hover {
   margin: 0 auto;
   padding: 2rem;
 }
+/* ---------------------
+   Contact Form Styles
+--------------------- */
+form {
+  max-width: 600px;
+  margin: 0 auto;
+  font-family: inherit;
+}
+
+input, textarea, select {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  margin-top: 0.25rem;
+  font-size: 1rem;
+}
+
+label {
+  font-weight: bold;
+  display: block;
+  margin-top: 1rem;
+}
+
+.required {
+  color: red;
+  font-weight: normal;
+}
+
+.snark-button {
+  margin-top: 1.5rem;
+  background-color: #4a4a4a;
+  color: white;
+  border: none;
+  border-radius: 2rem;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.snark-button:hover {
+  background-color: #222;
+}
+
+.hidden {
+  display: none;
+}
