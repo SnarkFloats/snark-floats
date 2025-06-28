@@ -606,7 +606,6 @@ input, textarea, select {
   border-radius: 6px;
   margin-top: 0; /* removes extra space above input */
   font-size: 1rem;
-  margin-bottom: 1rem; /* space between inputs */
 }
 
 label {
