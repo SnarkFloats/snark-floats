@@ -491,6 +491,10 @@ nav a:hover {
     flex-direction: column;
     gap: 2rem;
   }
+
+  .about-columns > div:not(:last-child)::after {
+    display: none;
+  }
 }
 
 .about-bottom-wrapper {
