@@ -524,13 +524,6 @@ nav a:hover {
   padding: 2rem 0;
 }
 
-.about-top {
-  display: flex;
-  gap: 2rem;
-  align-items: flex-start;
-  margin-top: 2rem;
-}
-
 .about-top-image {
   flex: 1;
   max-width: 300px;
