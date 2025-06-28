@@ -444,3 +444,33 @@ nav a {
 nav a:hover {
   color: #FFD700;
 }
+
+.about-columns {
+  display: flex;
+  gap: 2rem;
+  justify-content: space-between;
+  margin: 3rem 0;
+}
+
+.about-column {
+  flex: 1;
+  min-width: 0;
+}
+
+.about-column h3 {
+  font-size: 1.25rem;
+  margin-bottom: 0.5rem;
+}
+
+.about-column p {
+  line-height: 1.6;
+  font-size: 1rem;
+}
+
+/* Responsive stacking on smaller screens */
+@media (max-width: 900px) {
+  .about-columns {
+    flex-direction: column;
+    gap: 2rem;
+  }
+}
