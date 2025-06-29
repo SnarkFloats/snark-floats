@@ -738,12 +738,12 @@ label {
 
 .snarklevision {
   padding: 3rem 1rem;
-  max-width: 900px;
+  max-width: 960px;
   margin: 0 auto;
 }
 
 .snarkle-hero img {
-  max-width: 100%;
+  max-width: 800px;
   height: auto;
   display: block;
   margin: 2rem auto;
@@ -769,7 +769,7 @@ label {
   flex-direction: column;
   align-items: center;
   gap: 2rem;
-  max-width: 800px;
+  max-width: 960px;
   margin: 0 auto;
   padding: 2rem 1rem;
 }
@@ -780,10 +780,9 @@ label {
   border-radius: 8px;
   padding: 1.5rem;
   box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.1);
-  width: 100%;
   box-sizing: border-box;
   width: 100%;
-  max-width: 800px;
+  max-width: none;
 }
 
 .dream-cast-card h3 {
