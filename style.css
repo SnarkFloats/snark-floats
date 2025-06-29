@@ -713,6 +713,6 @@ label {
   border-radius: 8px;           /* Rounded corners */
   padding: 1em;                 /* Inner spacing */
   background-color: #f9f9f9;    /* Optional: Light background */
-  margin-top: 1em;              /* Space above the box */
+  margin-top: 0.25em;              /* Space above the box */
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
 }
