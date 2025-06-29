@@ -111,7 +111,7 @@ nav a:visited {
   font-weight: bold;
   padding: 4px 10px;
   border-radius: 999px;
-  margin-bottom: 0.75rem;
+  margin-bottom: 0.5rem;
 }
 .gold { background: #ffcf3f; color: #2b2100; }
 .teal { background: #4ecdc4; color: #003333; }
@@ -225,13 +225,16 @@ nav a:visited {
   border-left: 8px solid #5e2b97;
   border-radius: 8px;
   padding: 1.25rem;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
 }
 /* Limit card container width for visual alignment */
 .card-container {
   max-width: 800px;
   margin: 0 auto;
   padding: 0 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem; /* Try lowering this */
 }
 
 .site-footer {
