@@ -711,7 +711,7 @@ label {
 .prompt-box {
   border: 2px solid #ccc;       /* Light gray border */
   border-radius: 8px;           /* Rounded corners */
-  padding: 1em;                 /* Inner spacing */
+  padding: 0.5em;                 /* Inner spacing */
   background-color: #f9f9f9;    /* Optional: Light background */
   margin-top: 1em;              /* Space above the box */
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
