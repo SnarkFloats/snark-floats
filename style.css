@@ -732,6 +732,10 @@ label {
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
 }
 
+/* ================================
+   SnarkleVision Styles Start Here
+   ================================ */
+
 .snarklevision {
   padding: 3rem 1rem;
   max-width: 900px;
@@ -760,36 +764,10 @@ label {
   width: 60%;
 }
 
-.snarkle-grid {
-  display: grid;
-  gap: 2rem;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-}
-
-.snarkle-card {
-  background: #f9f9f9;
-  border: 1px solid #ddd;
-  padding: 1.5rem;
-  border-radius: 0.5rem;
-  box-shadow: 2px 2px 5px rgba(0,0,0,0.05);
-}
-
-.snarkle-card h3 {
-  margin-top: 0;
-  font-size: 1.25rem;
-}
-
-.snarkle-card a {
-  display: inline-block;
-  margin-top: 0.5rem;
-  font-weight: bold;
-  color: #6a1b9a;
-  text-decoration: none;
-}
 .card-container {
   display: flex;
   flex-direction: column;
-  gap: 2rem;
+  gap: 1.25rem;
   padding-block: 2rem;
 }
 
@@ -821,7 +799,7 @@ label {
   padding: 0.25rem 0.75rem;
   border-radius: 999px;
   font-size: 0.9rem;
-  margin-bottom: 1rem;
+  margin-bottom: 0.5rem;
 }
 
 .dream-cast-card .link-list {
@@ -842,3 +820,7 @@ label {
 .dream-cast-card .link-list a:hover {
   text-decoration: none;
 }
+
+/* ================================
+   SnarkleVision Styles End Here
+   ================================ */
