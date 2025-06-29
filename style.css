@@ -723,3 +723,58 @@ label {
   margin-top: 0.25em;              /* Space above the box */
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
 }
+
+.snarklevision {
+  padding: 3rem 1rem;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.snarkle-hero img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 2rem auto;
+}
+
+.snarkle-intro {
+  font-size: 1.1rem;
+  line-height: 1.7;
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto 2rem;
+}
+
+.snarkle-divider {
+  border: none;
+  border-top: 2px solid #999;
+  margin: 2rem auto;
+  width: 60%;
+}
+
+.snarkle-grid {
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+
+.snarkle-card {
+  background: #f9f9f9;
+  border: 1px solid #ddd;
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.05);
+}
+
+.snarkle-card h3 {
+  margin-top: 0;
+  font-size: 1.25rem;
+}
+
+.snarkle-card a {
+  display: inline-block;
+  margin-top: 0.5rem;
+  font-weight: bold;
+  color: #6a1b9a;
+  text-decoration: none;
+}
