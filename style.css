@@ -91,46 +91,13 @@ nav a:visited {
   color: #b886f4;
 }
 
-.card-container {
-  display: flex;
-  flex-direction: column;
-  gap: 2rem; /* spacing between cards */
-  padding: 48px;
-  margin: 0;
-}
 
-.card {
-  background: white;
-  border-left: 8px solid #5e2b97;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
-  border-radius: 8px;
-  padding: 1.25rem;
-  margin-bottom: 2rem;
-  box-sizing: border-box;
-  width: 100%;
-}
 
-.badge {
-  display: inline-block;
-  font-size: 0.75rem;
-  font-weight: bold;
-  padding: 4px 10px;
-  border-radius: 999px;
-  margin-bottom: 0.5rem;
-}
 .gold { background: #ffcf3f; color: #2b2100; }
 .teal { background: #4ecdc4; color: #003333; }
 .pink { background: #ff6b81; color: #330000; }
 
-.card-date {
-  font-size: 0.9rem;
-  color: #555;
-}
 
-.card-excerpt {
-  margin-top: 0.75rem;
-  line-height: 1.6;
-}
 
 
 
@@ -223,24 +190,7 @@ nav a:visited {
 }
 
 /* Enhanced card styling */
-.card {
-  background: #f1eef7;
-  border: 1px solid #ddd;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.04);
-  border-left: 8px solid #5e2b97;
-  border-radius: 8px;
-  padding: 1.25rem;
-  margin-bottom: 1rem;
-}
 /* Limit card container width for visual alignment */
-.card-container {
-  max-width: 800px;
-  margin: 0 auto;
-  padding: 0 1rem;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 1rem; /* Try lowering this */
-}
 
 .site-footer {
   text-align: center;
@@ -251,17 +201,7 @@ nav a:visited {
   margin-top: 4rem;
 }
 
-.card-link {
-  text-decoration: none;
-  color: inherit;
-  display: block;
-}
 
-.card-link:hover .card {
-  transform: scale(1.01);
-  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.08);
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
-}
 
 /* Blog post content styles */
 .post {
@@ -732,6 +672,24 @@ label {
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
 }
 
+/* SnarkleVision styles */
+.card-container {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem; /* spacing between cards */
+  padding: 48px;
+  margin: 0;
+}
+
+.card-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem; /* Try lowering this */
+}
+
 .snarklevision {
   padding: 3rem 1rem;
   max-width: 900px;
@@ -760,32 +718,6 @@ label {
   width: 60%;
 }
 
-.snarkle-grid {
-  display: grid;
-  gap: 2rem;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-}
-
-.snarkle-card {
-  background: #f9f9f9;
-  border: 1px solid #ddd;
-  padding: 1.5rem;
-  border-radius: 0.5rem;
-  box-shadow: 2px 2px 5px rgba(0,0,0,0.05);
-}
-
-.snarkle-card h3 {
-  margin-top: 0;
-  font-size: 1.25rem;
-}
-
-.snarkle-card a {
-  display: inline-block;
-  margin-top: 0.5rem;
-  font-weight: bold;
-  color: #6a1b9a;
-  text-decoration: none;
-}
 .card-container {
   display: flex;
   flex-direction: column;
