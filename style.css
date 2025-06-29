@@ -445,6 +445,13 @@ nav a:hover {
   color: #FFD700;
 }
 
+section.about-columns {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
 .about-columns {
   display: flex;
   align-items: flex-start; /* instead of stretch */
