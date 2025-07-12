@@ -935,7 +935,7 @@ label {
 .modal-content img {
   display: block;
   width: 100%;
-  max-width: 500px;
+  max-width: 350px;
   height: auto;
   margin: auto;
   image-rendering: pixelated;
