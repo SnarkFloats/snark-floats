@@ -912,33 +912,51 @@ label {
   position: fixed;
   z-index: 999;
   padding-top: 60px;
-  left: 0; top: 0; width: 100%; height: 100%;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
   overflow: auto;
-  background-color: rgba(0,0,0,0.7);
+  background-color: rgba(0, 0, 0, 0.7);
 }
 
+/* Modal content wrapper */
+.modal-content {
+  position: relative;
+  margin: auto;
+  background: transparent; /* No background needed unless you want one */
+  padding: 0;
+  width: fit-content;
+  max-width: 90vw;
+  box-sizing: border-box;
+}
+
+/* Game card image */
 .modal-content img {
-  width: 400px; /* Or whatever size looks good to you */
-  image-rendering: pixelated;  /* <- CRITICAL for crisp 8-bit look */
+  display: block;
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  margin: auto;
+  image-rendering: pixelated;
   border: 4px solid white;
   border-radius: 8px;
 }
 
-.modal-content img {
-  max-width: 400px;
-  width: 100%;
-  height: auto;
-  image-rendering: pixelated;
-  display: block;
-  margin: 0 auto;
-}
-
+/* Close button */
 .close {
   position: absolute;
-  top: -10px;
-  right: -10px;
+  top: -12px;
+  right: -12px;
   color: white;
-  font-size: 36px;
+  font-size: 28px;
   font-weight: bold;
+  background: black;
+  border-radius: 50%;
+  width: 32px;
+  height: 32px;
+  line-height: 28px;
+  text-align: center;
   cursor: pointer;
+  z-index: 10;
 }
