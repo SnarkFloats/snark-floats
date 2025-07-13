@@ -342,11 +342,13 @@ nav a:visited {
 /* Hero image styling for post */
 .hero-image {
   display: block;
-  max-width: 400px;
-  height: auto;
+  max-width: 500px;     /* shrink this from 600 or whatever it was */
+  height: auto;         /* keep aspect ratio */
+  max-height: 200px;    /* this is key to reduce vertical size */
   margin: 2rem auto;
   border-radius: 8px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  object-fit: cover;    /* add this just in case */
 }
 
 /* Sidebar styling */
