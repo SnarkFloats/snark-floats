@@ -342,7 +342,7 @@ nav a:visited {
 /* Hero image styling for post */
 .hero-image {
   display: block;
-  max-width: 100%;
+  max-width: 600px;
   height: auto;
   margin: 2rem auto;
   border-radius: 8px;
