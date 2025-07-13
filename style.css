@@ -961,9 +961,14 @@ label {
   z-index: 10;
 }
 
+.share-container {
+  text-align: center;
+  margin: 2em 0;
+}
+
 .a2a_kit {
-  margin-top: 2em;
-  display: flex;
-  gap: 0.05em;
+  display: inline-flex;
+  gap: 1em;
+  justify-content: center;
   align-items: center;
 }
