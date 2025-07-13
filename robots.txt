@@ -1,0 +1,5 @@
+# robots.txt for Snark Floats
+# Let all well-behaved bots index everything
+
+User-agent: *
+Disallow:
