@@ -964,6 +964,6 @@ label {
 .a2a_kit {
   margin-top: 2em;
   display: flex;
-  gap: 1em;
+  gap: 0.05em;
   align-items: center;
 }
