@@ -186,7 +186,7 @@ nav a:visited {
   display: block;
   max-width: 1000px;         /* was 800px */
   width: 85%;               /* was 90% */
-  max-height: 280px;        /* was 240px */
+  max-height: 260px;        /* was 240px */
   object-fit: cover;
   margin: 1rem auto 1.5rem auto;
   border: 6px solid #5E2B97;
