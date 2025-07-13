@@ -960,3 +960,10 @@ label {
   cursor: pointer;
   z-index: 10;
 }
+
+.a2a_kit {
+  margin-top: 2em;
+  display: flex;
+  gap: 1em;
+  align-items: center;
+}
