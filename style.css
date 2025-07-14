@@ -930,10 +930,10 @@ label {
 
 .dreamcast-stupid-img {
   display: block;
+  width: 100%;
+  max-width: 600px;
+  height: auto;
   margin: 1rem auto 1.5rem auto;
-  width: 100%;           /* Add this */
-  max-width: 400px;      /* Adjust to whatever size you prefer */  height: auto;
-  object-fit: cover;
   border: 6px solid #5E2B97;
   border-radius: 8px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
