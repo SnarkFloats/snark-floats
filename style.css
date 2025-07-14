@@ -975,5 +975,6 @@ label {
 /* Ensure bold elements actually look bold */
 strong,
 b {
-  font-weight: 700;
+  font-weight: 700 !important;
+  font-family: 'Inter', sans-serif !important;
 }
