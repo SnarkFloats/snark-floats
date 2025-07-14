@@ -912,10 +912,10 @@ label {
 
 .cast-links a {
   display: block;
-  margin: 0.1rem auto;
-  padding: 0.25rem 0.5rem;
-  background-color: #5E2B97; /* purple */
-  color: #E6E6E6; /* soft light text */
+  margin: 0.05rem auto; /* Reduce vertical spacing even more */
+  padding: 0.5rem 0.5rem; /* Keep the button readable/clickable */
+  background-color: #5E2B97;
+  color: #E6E6E6;
   border-radius: 5px;
   text-decoration: none;
   font-weight: bold;
@@ -923,7 +923,7 @@ label {
 }
 
 .cast-links a:hover {
-  background-color: #C41E72; /* magenta accent */
+  background-color: #C41E72;
   color: #fff;
   cursor: pointer;
 }
