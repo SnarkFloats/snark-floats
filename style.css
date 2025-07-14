@@ -828,8 +828,7 @@ label {
    SnarkleVision Styles End Here
    ================================ */
 
-/* Dreamcast full-page styles — Blogified 💜 */
-
+/* Dreamcast full-page styles — Blogified 💜 with Inter */
 .dreamcast-page {
   padding: 3rem 1rem;
   max-width: 960px;
@@ -851,7 +850,6 @@ label {
 }
 
 .dreamcast-page .dreamcast-hero h1 {
-  font-family: 'Raleway', sans-serif;
   font-size: 2rem;
   color: #5E2B97;
   margin-top: 1rem;
@@ -875,7 +873,6 @@ label {
 }
 
 .dreamcast-page .dreamcast-section h2 {
-  font-family: 'Raleway', sans-serif;
   font-size: 1.5rem;
   color: #2E003E;
   border-bottom: 2px solid #5E2B97;
@@ -907,7 +904,6 @@ label {
   color: #333;
   margin: 0.5rem 0 0;
 }
-
 /* Dreamcast full-page styles — END */
 
 /* Modal content wrapper */
