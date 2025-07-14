@@ -912,8 +912,8 @@ label {
 
 .cast-links a {
   display: block;
-  margin: 0.25rem auto;
-  padding: 0.25rem 0.25rem;
+  margin: 0.1rem auto;
+  padding: 0.25rem 0.5rem;
   background-color: #5E2B97; /* purple */
   color: #E6E6E6; /* soft light text */
   border-radius: 5px;
