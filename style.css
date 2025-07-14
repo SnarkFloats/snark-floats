@@ -913,7 +913,7 @@ label {
 .cast-links a {
   display: block;
   margin: 0.05rem auto; /* Reduce vertical spacing even more */
-  padding: 0.5rem 0.5rem; /* Keep the button readable/clickable */
+  padding: 0.25rem 0.25rem; /* Keep the button readable/clickable */
   background-color: #5E2B97;
   color: #E6E6E6;
   border-radius: 5px;
