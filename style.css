@@ -342,7 +342,7 @@ nav a:visited {
 /* Hero image styling for post */
 .hero-container {
   text-align: center;
-  margin: 2rem 0 1rem 0;  /* 👈 reduced bottom margin */
+  margin: 1rem 0 1rem 0;  /* 👈 reduced bottom margin */
 }
 
 .hero-image {
