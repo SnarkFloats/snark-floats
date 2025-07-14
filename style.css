@@ -904,6 +904,24 @@ label {
   color: #333;
   margin: 0.5rem 0 0;
 }
+
+.cast-links a {
+  display: inline-block;
+  margin: 0.5rem 0.75rem;
+  padding: 0.4rem 0.8rem;
+  background-color: #2EC3F3; /* cyan tone */
+  color: #1A1D22; /* dark background-friendly */
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.cast-links a:hover {
+  background-color: #5E2B97; /* your deep purple */
+  color: #fff;
+  cursor: pointer;
+}
 /* Dreamcast full-page styles — END */
 
 /* Modal content wrapper */
