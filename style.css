@@ -828,14 +828,15 @@ label {
    SnarkleVision Styles End Here
    ================================ */
 
-/* Dreamcast full-page styles — separate from index cards */
+/* Dreamcast full-page styles — Blogified 💜 */
 
 .dreamcast-page {
   padding: 3rem 1rem;
   max-width: 960px;
   margin: 0 auto;
-  font-family: Inter, sans-serif;
-  color: #E6E6E6;
+  font-family: 'Inter', sans-serif;
+  color: #111;
+  background-color: #f9f9fb;
 }
 
 .dreamcast-page .dreamcast-hero {
@@ -846,18 +847,18 @@ label {
 .dreamcast-page .dreamcast-hero img {
   max-width: 100%;
   border-radius: 12px;
-  box-shadow: 0 0 15px rgba(46, 195, 243, 0.4);
+  box-shadow: 0 0 15px rgba(94, 43, 151, 0.15); /* soft purple shadow */
 }
 
 .dreamcast-page .dreamcast-hero h1 {
-  font-family: Orbitron, sans-serif;
-  font-size: 2.8rem;
-  color: #2EC3F3;
+  font-family: 'Raleway', sans-serif;
+  font-size: 2rem;
+  color: #5E2B97;
   margin-top: 1rem;
 }
 
 .dreamcast-page .title-highlight {
-  color: #7FA3B0;
+  color: #5E2B97;
 }
 
 .dreamcast-page .dreamcast-intro {
@@ -866,6 +867,7 @@ label {
   text-align: center;
   max-width: 800px;
   margin: 0 auto 2.5rem;
+  color: #222;
 }
 
 .dreamcast-page .dreamcast-section {
@@ -873,51 +875,40 @@ label {
 }
 
 .dreamcast-page .dreamcast-section h2 {
-  font-family: Orbitron, sans-serif;
-  font-size: 1.8rem;
-  color: #7FA3B0;
-  border-bottom: 2px solid #2EC3F3;
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.5rem;
+  color: #2E003E;
+  border-bottom: 2px solid #5E2B97;
   padding-bottom: 0.5rem;
   margin-bottom: 1.5rem;
 }
 
 .dreamcast-page .cast-entry {
-  background-color: #1A1D22;
-  border: 1px solid #2EC3F3;
+  background-color: #fff;
+  border: 1px solid #ddd;
   border-radius: 10px;
   padding: 1.25rem;
   margin-bottom: 1.5rem;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
 }
 
 .dreamcast-page .cast-entry h3 {
   font-size: 1.3rem;
-  color: #E6E6E6;
+  color: #5E2B97;
   margin-bottom: 0.25rem;
 }
 
 .dreamcast-page .cast-entry .actor-name {
-  color: #2EC3F3;
+  color: #2E003E;
   font-weight: bold;
 }
 
 .dreamcast-page .cast-entry p {
-  color: #C5C5C5;
+  color: #333;
   margin: 0.5rem 0 0;
 }
 
 /* Dreamcast full-page styles — END */
-.modal {
-  display: none;
-  position: fixed;
-  z-index: 999;
-  padding-top: 60px;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  overflow: auto;
-  background-color: rgba(0, 0, 0, 0.7);
-}
 
 /* Modal content wrapper */
 .modal-content {
