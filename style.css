@@ -862,7 +862,7 @@ label {
 .dreamcast-page .dreamcast-intro {
   font-size: 1.1rem;
   line-height: 1.7;
-  text-align: center;
+  text-align: left;
   max-width: 800px;
   margin: 0 auto 2.5rem;
   color: #222;
