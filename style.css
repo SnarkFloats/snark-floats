@@ -932,7 +932,7 @@ label {
   display: block;
   margin: 1rem auto 1.5rem auto;
   width: 100%;           /* Add this */
-  max-width: 600px;      /* Adjust to whatever size you prefer */  height: auto;
+  max-width: 100px;      /* Adjust to whatever size you prefer */  height: auto;
   object-fit: cover;
   border: 6px solid #5E2B97;
   border-radius: 8px;
