@@ -433,7 +433,7 @@ nav a {
   margin-left: 1rem; /* slight indent */
 }
 .back-to-posts {
-  margin-top: 3rem;
+  margin-top: 2rem;
   text-align: center;
   font-size: 0.95rem;
 }
@@ -913,7 +913,7 @@ label {
 .cast-links a {
   display: inline-block;
   margin: 0.5rem 0.5rem;
-  padding: 0.4rem 0.9rem;
+  padding: 0.4rem 0.5rem;
   background-color: #5E2B97; /* purple */
   color: #E6E6E6; /* soft light text */
   border-radius: 5px;
