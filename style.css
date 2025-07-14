@@ -971,3 +971,9 @@ label {
   justify-content: center;
   align-items: center;
 }
+
+/* Ensure bold elements actually look bold */
+strong,
+b {
+  font-weight: 700;
+}
