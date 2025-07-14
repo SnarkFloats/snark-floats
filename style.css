@@ -931,7 +931,7 @@ label {
 .dreamcast-hero-img {
   display: block;
   margin: 1rem auto 1.5rem auto;
-  max-width: 500px;
+  max-width: 100px;
   height: auto;
   object-fit: cover;
   border: 6px solid #5E2B97;
