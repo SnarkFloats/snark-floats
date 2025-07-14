@@ -912,6 +912,8 @@ label {
 
 .cast-links a {
   display: block;
+  width: 100%;
+  max-width: 600px; /* or whatever width you want */
   margin: 0.01rem auto; /* Reduce vertical spacing even more */
   padding: 0.5rem 0.5rem; /* Keep the button readable/clickable */
   background-color: #5E2B97;
