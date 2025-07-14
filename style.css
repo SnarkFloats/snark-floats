@@ -433,7 +433,7 @@ nav a {
   margin-left: 1rem; /* slight indent */
 }
 .back-to-posts {
-  margin-top: 2rem;
+  margin-top: 0.5rem;
   text-align: center;
   font-size: 0.95rem;
 }
