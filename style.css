@@ -905,12 +905,17 @@ label {
   margin: 0.5rem 0 0;
 }
 
+.cast-links {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
 .cast-links a {
   display: inline-block;
-  margin: 0.5rem 0.75rem;
-  padding: 0.4rem 0.8rem;
-  background-color: #2EC3F3; /* cyan tone */
-  color: #1A1D22; /* dark background-friendly */
+  margin: 0.5rem 0.5rem;
+  padding: 0.4rem 0.9rem;
+  background-color: #5E2B97; /* purple */
+  color: #E6E6E6; /* soft light text */
   border-radius: 5px;
   text-decoration: none;
   font-weight: bold;
@@ -918,7 +923,7 @@ label {
 }
 
 .cast-links a:hover {
-  background-color: #5E2B97; /* your deep purple */
+  background-color: #C41E72; /* magenta accent */
   color: #fff;
   cursor: pointer;
 }
