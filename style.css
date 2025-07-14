@@ -973,8 +973,7 @@ label {
 }
 
 /* Ensure bold elements actually look bold */
-strong,
-b {
+.post-body strong {
   font-weight: 700 !important;
   font-family: 'Inter', sans-serif !important;
 }
