@@ -355,6 +355,15 @@ nav a:visited {
   object-fit: cover;
 }
 
+.hero-vertical img {
+  object-fit: contain;
+  height: auto;
+  max-height: 400px; /* or however tall your hero section is */
+  background-color: #f4e8d0; /* matches the image background to avoid awkward gaps */
+  display: block;
+  margin: 0 auto;
+}
+
 /* Sidebar styling */
 .sidebar {
   margin-top: 2rem;
