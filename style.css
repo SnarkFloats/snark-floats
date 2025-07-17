@@ -358,7 +358,7 @@ nav a:visited {
 .hero-vertical img {
   object-fit: contain;
   height: auto;
-  max-height: 500px; /* or however tall your hero section is */
+  max-height: 650px; /* or however tall your hero section is */
   background-color: #f4e8d0; /* matches the image background to avoid awkward gaps */
   display: block;
   margin: 0 auto;
