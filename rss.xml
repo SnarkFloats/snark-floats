@@ -5,8 +5,15 @@
     <link>https://www.snarkfloats.com</link>
     <description>Sarcasm. Sanity. Survival.</description>
     <language>en-us</language>
-    <lastBuildDate>Sun, 13 Jul 2025 10:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 19 Jul 2025 05:49:00 +0000</lastBuildDate>
     <atom:link href="https://www.snarkfloats.com/rss.xml" rel="self" type="application/rss+xml" xmlns:atom="http://www.w3.org/2005/Atom" />
+    <item>
+      <title>Still Working as Intended. More Broken Than Ever.</title>
+      <link>https://www.snarkfloats.com/posts/working-as-intended.html</link>
+      <description>Part 3 of a reluctant trilogy about modern systems and the humans they grind down. And the personal cost of being trapped by the system.</description>
+      <pubDate>Sat, 19 Jul 2025 05:49:00 +0000</pubDate>
+      <guid>https://www.snarkfloats.com/posts/working-as-intended.html</guid>
+    </item>
     <item>
       <title>Broken by Design. Silenced by Intent.</title>
       <link>https://www.snarkfloats.com/posts/broken-design-silent.html</link>
