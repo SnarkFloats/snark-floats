@@ -79,8 +79,14 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.snarkfloats.com/posts/the-skinny.html</loc>
+    <loc>https://www.snarkfloats.com/posts/burnout-economy.html</loc>
     <lastmod>2025-07-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.snarkfloats.com/posts/no-warrant_no-problem.html</loc>
+    <lastmod>2025-07-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
