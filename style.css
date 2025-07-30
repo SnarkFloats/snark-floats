@@ -91,14 +91,6 @@ nav a:visited {
   color: #b886f4;
 }
 
-.card-container {
-  display: flex;
-  flex-direction: column;
-  gap: 2rem; /* spacing between cards */
-  padding: 48px;
-  margin: 0;
-}
-
 .card {
   background: white;
   border-left: 8px solid #5e2b97;
@@ -224,15 +216,6 @@ nav a:visited {
   border-radius: 8px;
   padding: 1.25rem;
   margin-bottom: 1rem;
-}
-/* Limit card container width for visual alignment */
-.card-container {
-  max-width: 800px;
-  margin: 0 auto;
-  padding: 0 1rem;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 1rem; /* Try lowering this */
 }
 
 .site-footer {
@@ -782,10 +765,9 @@ label {
 .card-container {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: stretch;
   gap: 1rem;
   max-width: 960px;
-  min-width: 800px;
   margin: 0 auto;
   padding: 2rem 1rem;
 }
