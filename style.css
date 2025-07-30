@@ -256,6 +256,11 @@ nav a:visited {
   transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
+.card.blog-post {
+  width: 100%;
+  box-sizing: border-box;
+}
+
 /* Blog post content styles */
 .post {
   max-width: 800px;
