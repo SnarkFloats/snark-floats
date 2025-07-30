@@ -245,9 +245,13 @@ nav a:visited {
 }
 
 .card-link {
-  text-decoration: none;
-  color: inherit;
-  display: block;
+  flex: 1 1 100%;
+}
+
+@media (min-width: 700px) {
+  .card-link {
+    flex: 1 1 calc(50% - 0.5rem);
+  }
 }
 
 .card-link:hover .card {
