@@ -245,13 +245,9 @@ nav a:visited {
 }
 
 .card-link {
-  flex: 1 1 100%;
-}
-
-@media (min-width: 700px) {
-  .card-link {
-    flex: 1 1 calc(50% - 0.5rem);
-  }
+  text-decoration: none;
+  color: inherit;
+  display: block;
 }
 
 .card-link:hover .card {
